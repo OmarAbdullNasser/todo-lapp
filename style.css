@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+  padding: 0;
+  margin: 0;
+  font-family: Pro;
+}
+.header{
+  background-color: #2b352a;
+  padding: 10px;
+}
+.header h2{
+  text-align: center;
+ color: #1bff3f;
+}
+.search{
+    width: 19%;
+    position: absolute;
+    left: 74%;
+    top: 5%;
+    outline: none;
+}
+.task h4{
+display: inline-block;
+ margin-right: 5px;
+ color: #1bff3f;
+ font-size: 30px;
+}
+.task input{
+    width: 50%;
+    outline: none;
+    display: inline-block;;
+    margin-right: 5px;
+    padding: 5px;
+}
+.task button{
+  width: 20%;
+  outline: none;
+}
+.list{
+  margin: 15px;
+}
+.list button{
+  float: right;
+}
